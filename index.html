@@ -2,7 +2,7 @@
 <html>
 <head>
 	<script>
-		localStorage.SetItem(count, 0);
+		localStorage.SetItem("count", "0");
 		function setCookie(cname,cvalue,exdays) 
 		{
 		  const d = new Date();
@@ -48,7 +48,7 @@
 			   setCookie("username", user, 30);
 			 }
 			 localStorage.clear();
-			 localStorage.setItem(count, counter);
+			 localStorage.setItem("count", "counter");
 		  }
 		}
 		</script>
